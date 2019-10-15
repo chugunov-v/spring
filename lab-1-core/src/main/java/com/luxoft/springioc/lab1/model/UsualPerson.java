@@ -13,6 +13,14 @@ public class UsualPerson implements Person {
     private float height;
     private boolean isProgrammer;
 
+    public UsualPerson(){}
+
+    public UsualPerson(String name, int age, Country country) {
+        this.name = name;
+        this.country = country;
+        this.age = age;
+    }
+
     private List<String> contacts;
 
     public void setIsProgrammer(boolean isProgrammer) {
