@@ -9,7 +9,9 @@ public class UsualPerson implements Person {
     
 	private int age;
 	private boolean isProgrammer;
-    
+
+
+
     public UsualPerson(String name, int age, City city) {
     	this.name = name;
     	this.age = age;
